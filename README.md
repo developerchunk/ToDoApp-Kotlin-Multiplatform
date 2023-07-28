@@ -3,6 +3,8 @@
 ## Description
 ToDoApp is a simple cross-platform To-Do List application built using ```Compose Multiplatform```. It demonstrates the ```MVVM architecture``` with custom navigation and utilizes `SQLDelight` for local database storage.  The project showcases how to build a cross-platform application for `Android` and `Desktop` Platforms using a shared codebase written in Kotlin
 
+![slide](https://github.com/developerchunk/ToDoApp-Kotlin-Multiplatform/assets/90105266/6cd7bb4c-6e07-48cc-a86d-b2459601e5b6)
+
 ## Features
 - **Create Tasks:** Add new tasks to your to-do list with custom descriptions and due dates.
 - **Update Tasks:** Update existing tasks from the list.
