@@ -97,8 +97,6 @@ fun AddTaskScreen(navController: NavController, taskViewModel: TaskViewModel) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
 
-            Text(id.toString())
-
             // text fields
             Column(
                 modifier = Modifier.fillMaxWidth(),
