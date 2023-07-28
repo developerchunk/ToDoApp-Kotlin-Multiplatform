@@ -16,7 +16,7 @@ ToDoApp is a simple cross-platform To-Do List application built using ```Compose
 - Clone the repository to your local machine using the following command:
     <pre><code>https://github.com/developerchunk/ToDoApp-Kotlin-Multiplatform.git</code></pre>
 - Open the project in Android Studio or IntelliJ IDEA, and make sure you have all necessary tools and [Compose Multiplatform IDE support plugin](https://plugins.jetbrains.com/plugin/16541-compose-multiplatform-ide-support) installed
-- For the set-up of Compose Multiplatform, you can refer to one of my videos about it: https://www.youtube.com/embed/ZQGBkbmtUKA
+- For the set-up of Compose Multiplatform, you can refer to one of my videos about it: https://youtu.be/ZQGBkbmtUKA
 
 ## Project Structure
 ```
