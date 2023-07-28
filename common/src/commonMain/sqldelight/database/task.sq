@@ -1,0 +1,33 @@
+-- your all SQL queries
+
+-- creating a table
+CREATE TABLE task (
+
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    message TEXT NOT NULL
+
+);
+
+-- query, and the name 'getTasks' is the query name by which we are going to call the queries form the TaskDataSource
+getTasks:
+SELECT *
+FROM task
+ORDER BY id DESC;
+
+insertTask:
+INSERT OR REPLACE
+INTO task(
+    id,
+    title,
+    message
+) VALUES (?,?,?);
+
+deleteTask:
+DELETE FROM task
+WHERE id = :id;
+
+-- getSelectedTask:
+-- SELECT *
+-- FROM task
+-- WHERE id = :id;
